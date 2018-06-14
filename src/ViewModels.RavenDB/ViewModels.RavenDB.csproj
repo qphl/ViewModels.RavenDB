@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/cognisant/ViewModels.RavenDB</RepositoryUrl>
     <PackageTags>View Model, CQRS, RavenDB</PackageTags>
     <PackageId>CR.ViewModels.RavenDB</PackageId>
-    <PackageReleaseNotes>https://GitHub.com/Cognisant/ViewModels.RavenDB/releases/tag/$(Version)</PackageReleaseNotes>
+    <PackageReleaseNotes>https://GitHub.com/Cognisant/ViewModels.RavenDB/releases/tag/$(Tag)</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
