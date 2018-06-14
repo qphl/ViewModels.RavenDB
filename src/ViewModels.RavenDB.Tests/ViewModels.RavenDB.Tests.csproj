@@ -43,6 +43,12 @@
     <DocumentationFile>bin\Release\CR.ViewModels.Core.Tests.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CR.ViewModels.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CR.ViewModels.Core.1.0.0-rc0002\lib\netstandard2.0\CR.ViewModels.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -75,10 +81,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ViewModels.Core\ViewModels.Core.csproj">
-      <Project>{F270C246-201F-4289-BEBE-8E59BDF4F270}</Project>
-      <Name>ViewModels.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ViewModels.RavenDB\ViewModels.RavenDB.csproj">
       <Project>{B28BB5C0-B434-438C-8770-BBFF710A2708}</Project>
       <Name>ViewModels.RavenDB</Name>
