@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Persistence.RavenDB
+namespace CR.ViewModels.RavenDB
 {
     using System;
     using System.Collections.Generic;

@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Persistence.RavenDB
+namespace CR.ViewModels.RavenDB
 {
     /// <summary>
     /// Helper class used for code shared between <see cref="RavenDBViewModelReader"/> and <see cref="RavenDBViewModelWriter"/>.

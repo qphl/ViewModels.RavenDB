@@ -2,13 +2,13 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Tests
+namespace CR.ViewModels.Core.Tests
 {
     using NUnit.Framework;
-    using Persistence.RavenDB;
     using Raven.Client;
     using Raven.Client.Document;
     using Raven.Client.Embedded;
+    using RavenDB;
 
     /// <inheritdoc />
     [TestFixture]
