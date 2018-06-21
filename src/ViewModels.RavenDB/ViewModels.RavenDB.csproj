@@ -27,17 +27,14 @@
     <WarningsAsErrors />
     <DocumentationFile>bin\Release\netstandard2.0\CR.ViewModels.RavenDB.xml</DocumentationFile>
   </PropertyGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="1.0.1">
+    <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="[1.0.1,2.0.0-0)">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="CR.ViewModels.Core" Version="1.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="RavenDB.Client" Version="3.5.6" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta006">
-      <PrivateAssets>All</PrivateAssets>
-    </PackageReference>
+    <PackageReference Include="CR.ViewModels.Core" Version="[1.0.0,2.0.0-a)" />
+    <PackageReference Include="Newtonsoft.Json" Version="[11.0.1,12.0.0-a)" />
+    <PackageReference Include="RavenDB.Client" Version="[3.5.5,4.0.0-a)" />
   </ItemGroup>
 
 </Project>
