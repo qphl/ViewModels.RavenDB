@@ -11,7 +11,7 @@
     <Copyright>Cognisant Research 2018</Copyright>
     <PackageLicenseUrl>https://github.com/cognisant/ViewModels.RavenDB/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cognisant/ViewModels.RavenDB</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/cognisant/ViewModels.RavenDB/blob/master/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/cognisant/ViewModels.RavenDB/master/logo.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/cognisant/ViewModels.RavenDB</RepositoryUrl>
     <PackageTags>View Model, CQRS, RavenDB</PackageTags>
     <PackageId>CR.ViewModels.RavenDB</PackageId>
