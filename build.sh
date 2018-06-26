@@ -9,7 +9,7 @@ if [ -n "$2" ]; then tag="$2"
 fi
 tag=${tag/tags\//}
 
-curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -k
 .\\nuget.exe restore .\\src\\ViewModels.RavenDB.Tests\\ViewModels.RavenDB.Tests.csproj -PackagesDirectory .\\src\\packages -Verbosity detailed
 
 dotnet test .\\src\\ViewModels.RavenDB.Tests\\ViewModels.RavenDB.Tests.csproj -- RunConfiguration.TargetPlatform=x64 for RavenDB Tests
