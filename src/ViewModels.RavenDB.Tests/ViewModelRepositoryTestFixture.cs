@@ -1,5 +1,5 @@
-﻿// <copyright file="ViewModelRepositoryTestFixture.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="ViewModelRepositoryTestFixture.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
 namespace CorshamScience.ViewModels.Core.Tests
