@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.RavenDB
+namespace CorshamScience.ViewModels.RavenDB
 {
     using System;
     using System.Linq;

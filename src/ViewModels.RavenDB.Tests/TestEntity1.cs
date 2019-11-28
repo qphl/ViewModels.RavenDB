@@ -2,7 +2,7 @@
 // Copyright (c) Cognisant. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.Core.Tests
+namespace CorshamScience.ViewModels.Core.Tests
 {
     using System;
 
