@@ -14,4 +14,4 @@ curl -o nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -k
 
 dotnet test .\\src\\ViewModels.RavenDB.Tests\\ViewModels.RavenDB.Tests.csproj -- RunConfiguration.TargetPlatform=x64 for RavenDB Tests
 
-dotnet pack .\\src\\ViewModels.RavenDB\\ViewModels.RavenDB.csproj -o ..\\..\\dist -p:Version="$version" -p:PackageVersion="$version" -p:Tag="$tag" -c Release
+dotnet pack .\\src\\ViewModels.RavenDB\\ViewModels.RavenDB.csproj -o .\\dist -p:Version="$version" -p:PackageVersion="$version" -p:Tag="$tag" -c Release

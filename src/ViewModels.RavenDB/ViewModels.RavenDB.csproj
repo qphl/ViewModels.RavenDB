@@ -2,38 +2,43 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>CR.ViewModels.RavenDB</AssemblyName>
-    <RootNamespace>CR.ViewModels.RavenDB</RootNamespace>
-    <Product>CR.ViewModels</Product>
-    <Company>Cognisant Research</Company>
-    <Authors>Cognisant Research</Authors>
-    <Description>A package containing RavenDB ViewModel Implementations for use with CR.ViewModels.Core.</Description>
-    <Copyright>Cognisant Research 2018</Copyright>
-    <PackageLicenseUrl>https://github.com/cognisant/ViewModels.RavenDB/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/cognisant/ViewModels.RavenDB</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/cognisant/ViewModels.RavenDB/master/logo.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/cognisant/ViewModels.RavenDB</RepositoryUrl>
-    <PackageTags>View Model, CQRS, RavenDB</PackageTags>
-    <PackageId>CR.ViewModels.RavenDB</PackageId>
-    <PackageReleaseNotes>https://GitHub.com/Cognisant/ViewModels.RavenDB/releases/tag/$(Tag)</PackageReleaseNotes>
+    <AssemblyName>CorshamScience.ViewModels.RavenDB</AssemblyName>
+    <RootNamespace>CorshamScience.ViewModels.RavenDB</RootNamespace>
+    <Product>CorshamScience.ViewModels</Product>
+    <Company>Corsham Science</Company>
+    <Authors>Corsham Science</Authors>
+    <Description>A package containing RavenDB ViewModel Implementations for use with CorshamScience.ViewModels.Core.</Description>
+    <Copyright>Corsham Science 2019</Copyright>
+    <PackageProjectUrl>https://github.com/qphl/ViewModels.RavenDB</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/qphl/ViewModels.RavenDB/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/qphl/ViewModels.RavenDB</RepositoryUrl>
+    <PackageTags>View Model, CQRS, RavenDB, Corsham Science, Corsham, Science</PackageTags>
+    <PackageId>CorshamScience.ViewModels.RavenDB</PackageId>
+    <PackageReleaseNotes>https://GitHub.com/qphl/ViewModels.RavenDB/releases/tag/$(Tag)</PackageReleaseNotes>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageIcon>./Logo.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\CR.ViewModels.RavenDB.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\CorshamScience.ViewModels.RavenDB.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
-    <DocumentationFile>bin\Release\netstandard2.0\CR.ViewModels.RavenDB.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\CorshamScience.ViewModels.RavenDB.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Logo.png">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="CR.CodeStyle.CSharp.Full" Version="[1.0.1,2.0.0-0)">
-      <PrivateAssets>All</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="CR.ViewModels.Core" Version="[1.0.1,2.0.0-a)" />
-    <PackageReference Include="Newtonsoft.Json" Version="[11.0.1,12.0.0-a)" />
+    <PackageReference Include="CorshamScience.ViewModels.Core" Version="[2.0.0,3.0.0-a)" />
+    <PackageReference Include="Newtonsoft.Json" Version="[12.0.1,13.0.0-a)" />
     <PackageReference Include="RavenDB.Client" Version="[3.5.5,4.0.0-a)" />
   </ItemGroup>
 

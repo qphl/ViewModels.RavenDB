@@ -1,8 +1,8 @@
-﻿// <copyright file="RavenDBViewModelHelper.cs" company="Cognisant">
-// Copyright (c) Cognisant. All rights reserved.
+﻿// <copyright file="RavenDBViewModelHelper.cs" company="Corsham Science">
+// Copyright (c) Corsham Science. All rights reserved.
 // </copyright>
 
-namespace CR.ViewModels.RavenDB
+namespace CorshamScience.ViewModels.RavenDB
 {
     /// <summary>
     /// Helper class used for code shared between <see cref="RavenDBViewModelReader"/> and <see cref="RavenDBViewModelWriter"/>.
